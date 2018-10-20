@@ -4,8 +4,8 @@
 <script>
 function teste(){
 var j=document.getElementById('t1').value;
-alert(j);
-if(j==="kaio")
+alert(Object.is('Kaiu','Kaiu'));
+if(Object.is(j,"kaio"))
 {
 alert(document.getElementById('t2').value);
 }
